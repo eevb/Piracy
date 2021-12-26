@@ -4,7 +4,6 @@
   object-fit: cover;
   margin-left: 6%;
   margin-right: 6%;
- 
 }
 
 body{
@@ -23,5 +22,12 @@ body{
   left: 44%;
   font-family: Trebuchet MS;
   color: white;
+}
 
+
+.main {
+  width: 88%;
+  height: 1000px;
+  background: greenyellow;
+  margin: 0 6%;
 }
