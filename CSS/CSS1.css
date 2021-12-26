@@ -31,3 +31,11 @@ body{
   background: #13242d;
   margin: 0 6%;
 }
+
+.container1>p{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  margin: 0 6%;
+  color: white;
+}
