@@ -19,6 +19,9 @@ body{
 
 .text111 {
   position: absolute;
-  top: 8px;
-  left: 16px;
+  top: 230px;
+  left: 50%;
+  font-family: Trebuchet MS;
+  color: white;
+
 }
