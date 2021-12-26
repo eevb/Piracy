@@ -1,3 +1,3 @@
 # Piracy
 
-https://kkttoo2.github.io/Piracy/
+https://eevb.github.io/Piracy/
