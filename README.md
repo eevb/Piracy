@@ -1,3 +1,3 @@
 # Piracy
 
-https://eevb.github.io/Piracy/
+https://eevb.github.io/piracy/
