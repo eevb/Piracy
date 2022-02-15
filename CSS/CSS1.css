@@ -6,9 +6,9 @@
   margin-right: 6%;
 }
 
-body{
- background: #333;
- margin: 0px;
+body {
+  background: #333;
+  margin: 0px;
 }
 
 .container {
@@ -24,7 +24,6 @@ body{
   color: white;
 }
 
-
 #main {
   width: 88%;
   height: 3000px;
@@ -33,7 +32,7 @@ body{
   box-shadow: 0 0 30px #555;
 }
 
-.container1>p{
+.container1 > p {
   position: absolute;
   top: 8px;
   left: 16px;
@@ -46,5 +45,38 @@ body{
 iframe {
   width: 1000px;
   height: 500px;
-  
 }
+
+.w1w {
+  font-family: Trebuchet MS;
+  color: white;
+}
+
+.movie1 {
+  transition: transform 0.5s;
+  z-index: 999999999;
+  position: relative;
+}
+.movie1:hover {
+  transform: scale(1.1);
+}
+/* download */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 25px;
+  position: relative;
+  top: 45px;
+  right: 750px;
+  text-decoration: none;
+  font-family: Trebuchet MS;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+/* download */
