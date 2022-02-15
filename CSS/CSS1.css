@@ -79,4 +79,19 @@ iframe {
 .btn:hover {
   background-color: RoyalBlue;
 }
-/* download */
+
+#adblock {
+  display: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 100px;
+  color: white;
+  text-align: center;
+}
+
+.adblockimg {
+  width: 300px;
+}
+
+#adblock > p {
+  margin: unset;
+}

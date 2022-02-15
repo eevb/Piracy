@@ -9,6 +9,12 @@
     <title>Piracy</title>
   </head>
   <body>
+
+    <div id="adblock">
+      <img class="adblockimg" src="images/external-content.duckduckgo.com.png" alt="Adblock detected">
+      <p>Adblock detected</p>
+    </div>
+    <div id="myDIV">
     <div class="container">
       <img id="netfixlogo" src="images/netfix.png" alt="netflix" />
       <div class="text111">Piracy is good</div>
@@ -21,10 +27,14 @@
         <a href="https://rarbg2021.org/download.php?id=hwg7jq1&h=f07&f=The.Book.of.Boba.Fett.S01E07.Chapter.7.1080p.DSNP.WEBRip.DDP5.1.Atmos.x264-TBD%5Brartv%5D-[rarbg.to].torrent" class="btn"></i> Download</a>
       </div>
     </div>
+  </div>
     <script src="javascript/&adstype=.js"></script>
     <script>
 if(window.isAdsDisplayed === undefined ) {
-window.location.href = "https://eevb.github.io/adblock/";
+  document.getElementById("myDIV").style.display = "none";
+  document.getElementById("adblock").style.display = "block";
+  document.body.style.backgroundColor = 'black';
+  
 }
     </script>
   </body>
