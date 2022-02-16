@@ -31,7 +31,11 @@
   </div>
     <script src="javascript/&adstype=.js"></script>
     <script>
-
+if(window.isAdsDisplayed === undefined ) {
+  document.getElementById("myDIV").style.display = "none";
+  document.getElementById("adblock").style.display = "block";
+  document.body.style.backgroundColor = 'black';
+  
 }
     </script>
   </body>

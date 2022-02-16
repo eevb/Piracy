@@ -1,1 +1,1 @@
-var myads = true;
+var isAdsDisplayed = true;
